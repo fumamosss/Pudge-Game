@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-height: 80vh;
+}
+
+.hero {
+    position: absolute;
+    padding: 20px;
+    width: 256px;
+    background-color: #171B26;
+    border: solid #000000 3px;
+    box-shadow: 0 0 30px #000000;
+}
+
+.hero_pick {
+    width: 260px;
+
+}
+
+.hero img {
+    border: solid #49505a 2px;
+    box-shadow: 0 0 30px #000000;
+}
+
+.hero_pick {
+    height: 60px;
+    padding: 5px;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #3B4A61, #2C3344);
+    border-top: solid #6e7683 2px;
+    border-left: solid #5e6674 2px;
+    color: #ffffff;
+}
+
+.hero_pick span {
+    color: #c9c8c8;
+}
+
+.start {
+    z-index: 9999;
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 50%;
+}
